@@ -1,6 +1,6 @@
 {
   "name": "postdata",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Extract the POST data from a request",
   "main": "index.js",
   "scripts": {

@@ -1,6 +1,6 @@
 var qs = require('querystring');
 
-module.exports(request, response, callback) {
+module.exports = function(request, response, callback) {
   if (request.method == 'POST') {
       var body = '';
       request.on('data', function (data) {
