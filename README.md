@@ -1,4 +1,4 @@
-You can extract the POST data from a request without the use of external frameworks such as Express. I probably sourced this from StackOverflow or forums. If you're trying to convert JSON to a string check out 'jape' npm module or use `querystring.stringify`.
+You can extract the POST or PUT data from a request without the use of external frameworks such as Express. I probably sourced this from StackOverflow or forums. If you're trying to convert JSON to a string check out 'jape' npm module or use `querystring.stringify`.
 
 This module was built to work with curl: 
 

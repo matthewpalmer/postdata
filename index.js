@@ -1,7 +1,7 @@
 var qs = require('querystring');
 
 module.exports = function(request, response, callback) {
-  if (request.method == 'POST') {
+  if (request.method == 'POST' || request.method == 'PUT') {
       var body = '';
       request.on('data', function (data) {
           body += data;
